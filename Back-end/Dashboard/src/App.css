@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.warning {
+  background: #ffe5e5;
+  padding: 10px 20px;
+  border: 1px solid #ff4d4d;
+  color: #b30000;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.success {
+  background: #e6ffed;
+  padding: 10px 20px;
+  border: 1px solid #32cd32;
+  color: #1b6e1b;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.device-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+.chart-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-top: 30px;
+}
